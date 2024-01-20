@@ -23,11 +23,11 @@ function Homepage() {
             <strong class="text-white mx-1"> innovation</strong>
           </p>
         </div>
-        <button className="flex gap-2 items-center md:mt-8 py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-white uppercase font-bold  hover:gap-4 shadow-md shadow-[#b2f8f8]">
+        <button className="flex gap-2 items-center md:mt-8 py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-[#123] uppercase font-bold  hover:gap-5 shadow-sm shadow-[#b2f8f8]">
           contact us <GoArrowRight className="" />
         </button>
       </div>
-      <div className="flex items-start justify-start p-0">
+      <div className="flex items-start justify-start p-0 md:mt-[-20px]">
         <img className="" src={Lapii} alt="" />
       </div>
       <Glow className={"top-0 right-8"}/>
