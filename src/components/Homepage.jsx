@@ -13,7 +13,8 @@ function Homepage() {
             into <span class="text-indigo-300 mx-2">Reality</span>
           </h1>
           <p class="leading-relaxed text-gray-300 text-lg my-5 md:my-7 md:text-xl text-left">
-            Welcome to ,<strong class="text-white mx-1">Mmust Ihub</strong>{" "}
+                      Welcome to ,<strong class="text-white mx-1">Mmust Ihub</strong>{" "}
+                      
             where
             <strong class="text-white mx-1"> collaboration</strong> meets
             <strong class="text-white mx-1"> creativity</strong>. <br />
