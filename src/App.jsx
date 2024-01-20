@@ -7,6 +7,7 @@ import Homepage from "./components/Homepage";
 import Glow from "./components/Glow";
 import About from "./components/About";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 function App() {
   // #90E6FF
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Services />
       </div>
+      <Footer />
     </div>
   );
 }
