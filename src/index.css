@@ -3,6 +3,11 @@
 @tailwind utilities;
 @tailwind;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background: linear-gradient(90deg, #414571 0%, #00043c 100%);
 }

@@ -15,7 +15,7 @@ const Header = () => {
     <motion.div
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ 
+      transition={{
         ease: "linear",
         duration: 0.6,
       }}
@@ -29,7 +29,6 @@ const Header = () => {
             alt=""
           />
         </a>
-        Ihab
       </div>
       <div className="flex gap-10 text-blue-800">
         <ul
