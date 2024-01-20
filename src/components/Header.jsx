@@ -21,7 +21,7 @@ const Header = () => {
       }}
       className="w-full text-white flex flex-row bg-white shadow-sm shadow-black  justify-between items-center fixed top-0 left-0 mb-10 md:px-20 lg:px-40 max-[768px]:px-10 z-50"
     >
-      <div className="z-50 text-blue-500 flex items-center">
+      <div className="z-50 text-blue-[#00043c] flex items-center">
         <a href="/">
           <img
             className="w-[60px] h-[60px] object-cover cursor-pointer"
@@ -38,9 +38,7 @@ const Header = () => {
               : "hidden"
           } md:flex flex-row w-full h-full gap-10`}
         >
-          <li className=" active:text-purple-600 hover:text-purple-600">
-            <a href="/">Home</a>
-          </li>
+         
           <li className="active:text-purple-600 hover:text-purple-600">
             <a href="/about">About</a>
           </li>

@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Homepage from "./components/Homepage";
 import Glow from "./components/Glow";
 import About from "./components/About";
+import Services from "./components/Services";
 
 function App() {
   // #90E6FF
@@ -15,8 +16,9 @@ function App() {
       <Glow className="top-[-80px]" />
       <div className="md:px-8">
         <Homepage />
-       
+
         <About />
+        <Services />
       </div>
     </div>
   );
