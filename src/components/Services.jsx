@@ -5,7 +5,7 @@ function Services() {
     <section className="w-full py-12 md:py-24 lg:py-32 text-white">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#90E6FF] ">
+          <h2 className="text-4xl lg:text-[2rem] md:font-extrabold lg:leading-[2.9rem] font-bold text-[#90E6FF] leading-10 text-center">
             Our Services
           </h2>
           <p className="max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
@@ -27,7 +27,7 @@ function Services() {
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
-               strokeLinejoin="round"
+                strokeLinejoin="round"
                 className="w-12 h-12"
               >
                 <circle cx="12" cy="12" r="10"></circle>
@@ -57,7 +57,7 @@ function Services() {
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
-               strokeLinejoin="round"
+                strokeLinejoin="round"
                 className="w-12 h-12"
               >
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
@@ -85,7 +85,7 @@ function Services() {
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
-               strokeLinejoin="round"
+                strokeLinejoin="round"
                 className="w-12 h-12"
               >
                 <circle cx="12" cy="12" r="10"></circle>
@@ -114,7 +114,7 @@ function Services() {
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
-               strokeLinejoin="round"
+                strokeLinejoin="round"
                 className="w-12 h-12"
               >
                 <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>

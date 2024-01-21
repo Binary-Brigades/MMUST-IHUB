@@ -7,7 +7,7 @@ function ContactUs() {
       <div class="container space-y-12 px-4 md:px-6">
         <div class="flex flex-col items-center justify-center space-y-4 text-center">
           <div class="space-y-2">
-            <h1 class="text-4xl lg:text-[2rem] md:font-extrabold lg:leading-[2.9rem] font-bold text-[#90E6FF] leading-10 text-center mt-[-50px] mb-[20px]">
+            <h1 class="text-4xl lg:text-[2rem] md:font-extrabold lg:leading-[2.9rem] font-bold text-[#90E6FF] leading-10 text-center">
               Contact Us
             </h1>
             <p class="mx-auto max-w-[700px]  md:text-xl  text-white">
