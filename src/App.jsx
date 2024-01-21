@@ -8,6 +8,7 @@ import Glow from "./components/Glow";
 import About from "./components/About";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   // #90E6FF
@@ -20,6 +21,7 @@ function App() {
 
         <About />
         <Services />
+        <ContactUs/>
       </div>
       <Footer />
     </div>
