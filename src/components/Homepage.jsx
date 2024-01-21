@@ -25,7 +25,7 @@ function Homepage() {
             <strong className="text-white mx-1"> innovation</strong>
           </p>
         </div>
-        <button className="flex gap-2 items-center md:mt-8 py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-[#123] uppercase font-bold  hover:gap-5 shadow-sm shadow-[#b2f8f8]">
+        <button className="flex gap-2 items-center md:mt-8 py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-[#123] uppercase font-bold  hover:gap-5 shadow-sm shadow-[#b2f8f8] transition-all duration-500 ease-in-out">
           contact us <GoArrowRight className="w-5 h-5" />
         </button>
       </div>
