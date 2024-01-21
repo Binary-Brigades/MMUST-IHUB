@@ -14,10 +14,10 @@ function OurCarousel() {
         interval={3000}
         centerMode=""
         centerSlidePercentage={90}
-        showIndicators="True"
+        showIndicators="true"
         showThumbs=""
         showStatus=""
-        infiniteLoop="True"
+        infiniteLoop="true"
         className="max-w-[400px] rounded-lg h-[300px] object-cover"
       >
         <div className="">
