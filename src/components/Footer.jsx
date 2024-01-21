@@ -1,14 +1,18 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
-import { TiSocialGithub, TiSocialTwitter } from "react-icons/ti";
+import {
+  TiSocialGithub,
+  TiSocialGithubCircular,
+  TiSocialTwitter,
+} from "react-icons/ti";
 
 function Footer() {
   return (
     <footer className="w-full border-t  pt-8 pb-0 py-0 text-white ">
-      <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-6 text-left">
+      <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-6 text-left">
         <div className="space-y-2 md:col-span-2 lg:col-span-1 ">
           <h2 className="text-xl font-bold">Contact Info</h2>
-          <p className="text-gray-500">123 Main St, Anytown, USA</p>
+          <p className="text-gray-500">Kakamega, Kenya</p>
           <p className="text-gray-500">Phone: (123) 456-7890</p>
           <p className="text-gray-500">Email: info@company.com</p>
         </div>
@@ -20,7 +24,7 @@ function Footer() {
               <TiSocialTwitter className="w-8 h-8 hover:text-white transition-all duration-500 ease-in-out" />
             </a>
             <a href="">
-              <TiSocialGithub className="w-8 h-8 hover:text-white  transition-all duration-500 ease-in-out" />
+              <TiSocialGithubCircular className="w-8 h-8 hover:text-white  transition-all duration-500 ease-in-out" />
             </a>
           </p>
         </div>
@@ -35,7 +39,7 @@ function Footer() {
               placeholder="Enter your email..."
               type="email"
             />
-            <button className="flex gap-x-2 items-center py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-[#123] uppercase font-bold  hover:gap-x-5 shadow-sm shadow-[#b2f8f8] w-[40%]">
+            <button className="flex gap-x-2 items-center py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-[#123] uppercase font-bold  hover:gap-x-5 shadow-sm shadow-[#b2f8f8] w-[40%] hover:gap-5 transition-all duration-500 ease-in-out hover:bg-gradient hover:from-purple-500 hover:to-[#9ae9e9]">
               Subscribe <GoArrowRight className="w-5 h-5" />
             </button>
           </form>

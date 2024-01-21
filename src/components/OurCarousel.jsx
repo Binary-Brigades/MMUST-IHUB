@@ -22,7 +22,7 @@ function OurCarousel() {
       >
         <div className="">
           <img src={web} className="h-[300px] object-cover rounded-lg" />
-          <p className="legend bg-red-500">Web Development</p>
+          <p className="legend">Web Development</p>
         </div>
         <div className="">
           <img src={Mobile} className="h-[300px] object-cover rounded-lg" />

@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <motion.div
+    <motion.header
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{
@@ -28,6 +28,7 @@ const Header = () => {
             alt=""
           />
         </a>
+        <span className="text-[40px] font-extrabold  text-blue-500 ml-2 font" >I-HUB</span>
       </div>
       <div className="flex gap-10 text-blue-800 ">
         <ul className="hidden md:flex flex-row gap-10">
@@ -95,7 +96,7 @@ const Header = () => {
           <TiThMenu />
         </div>
       </div>
-    </motion.div>
+    </motion.header>
   );
 };
 
