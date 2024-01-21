@@ -4,7 +4,7 @@ import { TiSocialGithub, TiSocialTwitter } from "react-icons/ti";
 
 function Footer() {
   return (
-    <footer className="w-full border-t  pt-8 pb-0 py-0 text-white">
+    <footer className="w-full border-t  pt-8 pb-0 py-0 text-white ">
       <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-6 text-left">
         <div className="space-y-2 md:col-span-2 lg:col-span-1 ">
           <h2 className="text-xl font-bold">Contact Info</h2>

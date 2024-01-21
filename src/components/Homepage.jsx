@@ -7,7 +7,7 @@ import lottie from "../assets/Animation - 1705837942004.json";
 import Glowing from "./Glowing";
 function Homepage() {
   return (
-    <div className="flex flex-col mt-[70px] w-full px-5 py-5 items-start justify-between md:flex-row relative">
+    <div className="flex flex-col mt-[70px] w-full px-5 py-5 items-start justify-between md:flex-row ">
       <div className="flex-col items-start justify-start flex">
         <div className="flex-col items-start justify-start md:flex-row ">
           <h1 className="text-4xl lg:text-[2.6rem] md:font-extrabold lg:leading-[2.9rem] font-bold text-white leading-10 text-left ">
@@ -30,7 +30,7 @@ function Homepage() {
         </button>
       </div>
       <div className=" md:h-[400px] md:w-[50%]">
-        <Lottie className="h-[100%] w-full object-cover" animationData={lottie} />
+        {/* <Lottie className="h-[100%] w-full object-cover" animationData={lottie} /> */}
         {/* <img className="" src={Lapii} alt="" /> */}
       </div>
       <Glowing className={"top-0 right-8"} />

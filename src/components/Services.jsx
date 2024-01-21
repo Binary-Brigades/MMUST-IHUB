@@ -1,17 +1,23 @@
 import React from "react";
 import Divider from "./Divider";
+import OurCarousel from "./OurCarousel";
 
 function Services() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 text-white">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <Divider text="Our Services"/>
+          <Divider text="Our Services" />
+
           <p className="max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
             We offer a wide range of services to meet every type of need.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12 ">
+        <OurCarousel />
+        <div className="mt-12">
+          <Divider text="Why you should trust us" />
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-4 ">
           <div
             className="rounded-lg border bg-card text-card-foreground shadow-sm bg-[#6D6DAA]"
             data-v0-t="card"

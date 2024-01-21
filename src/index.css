@@ -10,10 +10,9 @@
 }
 body {
   background: #00043c;
+ 
 }
-/* .grad{
-    background: linear-gradient(120deg, #fff 3%,#030633 100%);
-} */
+
 
 /* Customize the scrollbar track */
 ::-webkit-scrollbar {
