@@ -10,6 +10,7 @@ import Services from "./components/Services";
 import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
 import Events from "./components/Events";
+import Products from "./components/Products";
 
 function App() {
   // #90E6FF
@@ -22,6 +23,7 @@ function App() {
 
         <About />
         <Services />
+        <Products/>
         <Events />
         <ContactUs />
       </div>
