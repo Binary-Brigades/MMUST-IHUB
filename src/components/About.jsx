@@ -6,7 +6,7 @@ import Glowing from "./Glowing";
 import Divider from "./Divider";
 function About() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col" id="about">
       <Glowing className="left-5" />
       <Divider text="About Us" />
 

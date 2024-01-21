@@ -6,7 +6,7 @@ import Divider from "./Divider";
 
 function Products() {
   return (
-    <div className="mb-[30px]">
+    <div className="mb-[30px]" id="products">
       <div className={`wrapped absolute`}>
         <div className="elem"></div>
       </div>

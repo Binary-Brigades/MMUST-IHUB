@@ -6,7 +6,7 @@ import Divider from "./Divider";
 
 function ContactUs() {
   return (
-    <section class="w-full py-16 md:py-24 lg:py-32  flex-col flex  relative">
+    <section class="w-full py-16 md:py-24 lg:py-32  flex-col flex  relative" id="contact">
       <Divider text="Contact Us" />
       <div class="space-y-2 mt-6">
         <p class="mx-auto max-w-[700px]  md:text-xl  text-white">
