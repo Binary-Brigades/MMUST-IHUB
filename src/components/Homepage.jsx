@@ -2,6 +2,8 @@ import React from "react";
 import Lapii from "../assets/lapi.svg";
 import { TiArrowForward } from "react-icons/ti";
 import { GoArrowRight } from "react-icons/go";
+import Lottie from "lottie-react";
+import lottie from "../assets/Animation - 1705837942004.json";
 import Glowing from "./Glowing";
 function Homepage() {
   return (
@@ -28,7 +30,8 @@ function Homepage() {
         </button>
       </div>
       <div className="flex items-start justify-start p-0 md:mt-[-20px]">
-        <img className="" src={Lapii} alt="" />
+        <Lottie className="w-[100%] h-[100%] absolute" animationData={lottie} />
+        {/* <img className="" src={Lapii} alt="" /> */}
       </div>
       <Glowing className={"top-0 right-8"} />
     </div>
