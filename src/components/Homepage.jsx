@@ -30,7 +30,7 @@ function Homepage() {
         </button>
       </div>
       <div className=" md:h-[400px] md:w-[50%]">
-        {/* <Lottie className="h-[100%] w-full object-cover" animationData={lottie} /> */}
+        <Lottie className="h-[100%] w-full object-cover" animationData={lottie} />
         {/* <img className="" src={Lapii} alt="" /> */}
       </div>
       <Glowing className={"top-0 right-8"} />
