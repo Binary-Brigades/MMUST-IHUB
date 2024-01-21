@@ -8,7 +8,7 @@ import Glowing from "./Glowing";
 import { motion } from "framer-motion";
 function Homepage() {
   return (
-    <div className="flex flex-col mt-[70px] w-full px-5 py-5 items-start justify-between md:flex-row h-screen">
+    <div className="flex flex-col mt-[70px] w-full px-5 py-5 items-start justify-between md:flex-row md:h-screen">
       <motion.div
         className="flex-col items-start justify-start flex"
         initial={{ x: "-100%", opacity: 0 }}

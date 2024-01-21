@@ -20,7 +20,7 @@ body {
 
 .font {
   font-family: Lemon;
-  -webkit-text-stroke: 0.1px;
+  -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: #9ae9e9;
 
   color: #00043c;
