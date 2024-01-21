@@ -17,6 +17,7 @@ function OurCarousel() {
         showIndicators="True"
         showThumbs=""
         showStatus=""
+        infiniteLoop="True"
         className="max-w-[400px] rounded-lg h-[300px] object-cover"
       >
         <div className="">
@@ -24,7 +25,7 @@ function OurCarousel() {
           <p className="legend bg-red-500">Web Development</p>
         </div>
         <div className="">
-          <img src={Mobile} className="rounded-lg"/>
+          <img src={Mobile} className="h-[300px] object-cover rounded-lg" />
           <p className="legend">Mobile App Development</p>
         </div>
         <div>
