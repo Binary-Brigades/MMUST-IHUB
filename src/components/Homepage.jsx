@@ -29,7 +29,7 @@ function Homepage() {
           contact us <GoArrowRight className="w-5 h-5" />
         </button>
       </div>
-      <div className=" md:h-[300px] md:w-[40%]">
+      <div className=" md:h-[400px] md:w-[50%]">
         <Lottie className="h-[100%] w-full object-cover" animationData={lottie} />
         {/* <img className="" src={Lapii} alt="" /> */}
       </div>
