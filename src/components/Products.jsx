@@ -2,14 +2,18 @@ import React from "react";
 import Lapii from "../assets/lapi.svg";
 import { TiArrowForward } from "react-icons/ti";
 import { GoArrowRight } from "react-icons/go";
-import Glow from "./Glow";
+import Divider from "./Divider";
+import Lottie from "lottie-react";
+import lottie from "../assets/Animation - 1705837942004.json";
 function Products() {
   return (
     <div className="mb-[30px]">
-      <h1 class="text-4xl lg:text-[2rem] md:font-extrabold lg:leading-[2.9rem] font-bold text-[#90E6FF] leading-10 text-center mb-7">
-      Projects
-      </h1>
+      <div className={`wrapped absolute`}>
+        <div className="elem"></div>
+      </div>
+      <Divider text="Projects" />
       <h1 className="text-white text-[40px]">comming very soon...</h1>
+      <Lottie className="w-[100%] h-[100%] absolute" animationData={lottie}/>
     </div>
   );
 }

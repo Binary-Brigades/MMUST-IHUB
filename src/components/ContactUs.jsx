@@ -1,22 +1,21 @@
 import React from "react";
 import { GoArrowDownRight, GoArrowRight } from "react-icons/go";
-import Glow from "./Glow";
 import Lapii from "../assets/Object/Other 18.svg";
+import Glowing from "./Glowing";
+import Divider from "./Divider";
 
 function ContactUs() {
   return (
     <section class="w-full py-16 md:py-24 lg:py-32  flex-col flex  relative">
-      <h1 class="text-4xl lg:text-[2rem] md:font-extrabold lg:leading-[2.9rem] font-bold text-[#90E6FF] leading-10 text-center mb-7">
-        Contact Us
-      </h1>
-      <div class="space-y-2 ">
+      <Divider text="Contact Us" />
+      <div class="space-y-2 mt-6">
         <p class="mx-auto max-w-[700px]  md:text-xl  text-white">
           We'd love to hear from you. Fill out the form below and we'll get back
           to you as soon as possible.
         </p>
       </div>
       <div className="flex-col flex md:flex-row mt-12 items-start justify-start">
-        <Glow className={"top-[400px] md:top-[380px] md:left-[100px]"} />
+        <Glowing className={"top-[400px] md:top-[380px] md:left-[100px]"} />
         <div class="container space-y-12 px-4 md:px-6">
           <div class="flex flex-col items-center justify-center space-y-4 text-center">
             <div class="w-full max-w-sm space-y-2">
@@ -50,7 +49,7 @@ function ContactUs() {
         <div className="flex items-start justify-start p-0 md:mt-[-80px]">
           <img className="" src={Lapii} alt="" />
         </div>
-        <Glow className={"top-5 md:top-16 right-10 md:right-[300px]"} />
+        <Glowing className={"top-5 md:top-16 right-10 md:right-[300px]"} />
       </div>
     </section>
   );

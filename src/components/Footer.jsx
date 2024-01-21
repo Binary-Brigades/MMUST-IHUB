@@ -5,7 +5,7 @@ import { TiSocialGithub, TiSocialTwitter } from "react-icons/ti";
 function Footer() {
   return (
     <footer className="w-full border-t  pt-8 pb-0 py-0 text-white">
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-6 text-left">
+      <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-6 text-left">
         <div className="space-y-2 md:col-span-2 lg:col-span-1 ">
           <h2 className="text-xl font-bold">Contact Info</h2>
           <p className="text-gray-500">123 Main St, Anytown, USA</p>
@@ -24,18 +24,18 @@ function Footer() {
             </a>
           </p>
         </div>
-        <div className="space-y-2">
+        <div className="space-y-2 col-span-2 md:col-span-1">
           <h2 className="text-xl font-bold">Newsletter</h2>
           <p className="text-gray-500">
             Subscribe to our newsletter for the latest updates.
           </p>
-          <form className="flex gap-4 w-full">
+          <form className="flex md:flex-row gap-4 w-full flex-col">
             <input
               className="flex h-10 w-full rounded-md border border-input bg-transparent px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 flex-1"
               placeholder="Enter your email..."
               type="email"
             />
-            <button className="flex gap-x-2 items-center py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-[#123] uppercase font-bold  hover:gap-x-5 shadow-sm shadow-[#b2f8f8]">
+            <button className="flex gap-x-2 items-center py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-[#123] uppercase font-bold  hover:gap-x-5 shadow-sm shadow-[#b2f8f8] w-[40%]">
               Subscribe <GoArrowRight className="w-5 h-5" />
             </button>
           </form>

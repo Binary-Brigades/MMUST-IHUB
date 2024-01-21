@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(90deg, #414571 0%, #00043c 100%);
+  background: #00043c;
 }
 /* .grad{
     background: linear-gradient(120deg, #fff 3%,#030633 100%);
@@ -41,12 +41,12 @@ body {
   background-color: #f1f1f1; /* Set the color of the scrollbar corner */
 }
 
-.wrapper {
+.wrapped {
   margin-left: 5rem;
   margin-top: 5rem;
   z-index: -1;
 }
-.element {
+.elem {
   position: relative;
   width: 60px;
   height: 60px;
@@ -54,7 +54,7 @@ body {
   /* box-shadow: 0 0 12px #98e9e9; */
   border-radius: 50%;
 }
-.element:before {
+.elem:before {
   content: "";
   top: 50%;
   transform: translate(-50%, -50%);
@@ -95,8 +95,8 @@ ul li a:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
-.box{
-  background: linear-gradient(120deg, #fff 3%,#030633 100%);
+.box {
+  background: linear-gradient(120deg, #fff 3%, #030633 100%);
   border-radius: 10px;
   box-shadow: 0 0 12px #98e9e9;
   padding: 1rem;

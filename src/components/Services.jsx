@@ -1,13 +1,12 @@
 import React from "react";
+import Divider from "./Divider";
 
 function Services() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 text-white">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <h2 className="text-4xl lg:text-[2rem] md:font-extrabold lg:leading-[2.9rem] font-bold text-[#90E6FF] leading-10 text-center">
-            Our Services
-          </h2>
+          <Divider text="Our Services"/>
           <p className="max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
             We offer a wide range of services to meet every type of need.
           </p>

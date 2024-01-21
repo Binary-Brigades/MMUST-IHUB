@@ -1,14 +1,13 @@
 import React from "react";
+import Divider from "./Divider";
 
 function Events() {
   return (
     <section class="w-full py-12 md:py-24 lg:py-32 text-white">
       <div class="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
         <div class="space-y-3">
-          <h2 class="text-4xl lg:text-[2rem] md:font-extrabold lg:leading-[2.9rem] font-bold text-[#90E6FF] leading-10 text-center">
-            Upcoming Events
-          </h2>
-          <p class="mx-auto max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
+          <Divider text="Events" />
+          <p class="mx-auto max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed  mt-8">
             Join us at our upcoming events. We look forward to seeing you there!
           </p>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Lapii from "../assets/lapi.svg";
 import { TiArrowForward } from "react-icons/ti";
 import { GoArrowRight } from "react-icons/go";
-import Glow from "./Glow";
+import Glowing from "./Glowing";
 function Homepage() {
   return (
     <div className="flex flex-col mt-[70px] w-full px-5 py-5 items-start justify-between md:flex-row relative">
@@ -30,7 +30,7 @@ function Homepage() {
       <div className="flex items-start justify-start p-0 md:mt-[-20px]">
         <img className="" src={Lapii} alt="" />
       </div>
-      <Glow className={"top-0 right-8"} />
+      <Glowing className={"top-0 right-8"} />
     </div>
   );
 }
