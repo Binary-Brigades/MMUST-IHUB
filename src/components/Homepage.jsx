@@ -53,13 +53,13 @@ function Homepage() {
         animate={{ x: 0, opacity: 1 }}
         transition={{
           ease: "easeInOut",
-          duration: 0.9,
+          duration: 0.3,
         }}
       >
-        {/* <Lottie
+        <Lottie
           className="h-[100%] w-full object-cover"
           animationData={lottie}
-        /> */}
+        />
         {/* <img className="" src={Lapii} alt="" /> */}
       </motion.div>
       <Glowing className={"top-0 right-8"} />

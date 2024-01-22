@@ -29,7 +29,7 @@ function About() {
             animate={controls}
             transition={{
               ease: "easeInOut",
-              duration: 0.9,
+              duration: 0.3,
             }}
           >
             <h1 className="text-2xl lg:text-[1.5rem] md:font-extrabold lg:leading-[2.1rem] font-bold text-white leading-7 text-left md:w-[85%] text-wrap">
@@ -49,7 +49,7 @@ function About() {
             animate={{ x: 0, opacity: 1 }}
             transition={{
               ease: "easeInOut",
-              duration: 0.9,
+              duration: 0.3,
             }}
             href="#"
             className="flex gap-2 items-center md:mt-8 py-2 px-4 bg-gradient-to-l from-indigo-300 to-[#9ae9e9] rounded-full text-[#123] uppercase font-bold  hover:gap-5 shadow-sm shadow-[#b2f8f8] transition-all duration-500 ease-in-out hover:bg-gradient hover:from-purple-500 hover:to-[#9ae9e9]"
