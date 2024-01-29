@@ -28,7 +28,9 @@ const Header = () => {
             alt=""
           />
         </a>
-        <span className="text-[40px] font-extrabold  text-blue-500 ml-2 font" >I-HUB</span>
+        <span className="text-[40px] font-extrabold  text-blue-500 ml-2 font">
+          <span className="text-red-500">I</span>-HUB
+        </span>
       </div>
       <div className="flex gap-10 text-blue-800 ">
         <ul className="hidden md:flex flex-row gap-10">

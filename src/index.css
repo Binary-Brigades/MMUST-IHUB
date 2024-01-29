@@ -21,7 +21,7 @@ body {
 .font {
   font-family: Lemon;
   -webkit-text-stroke: 1.4px;
-  -webkit-text-stroke-color: #9ae9e9;
+  -webkit-text-stroke-color: white;
 
   color: #00043c;
 }
