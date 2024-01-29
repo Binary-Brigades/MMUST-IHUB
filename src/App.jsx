@@ -8,6 +8,7 @@ import ContactUs from "./components/ContactUs";
 import Events from "./components/Events";
 import Products from "./components/Products";
 import Glowing from "./components/Glowing";
+import Community from "./components/Community";
 
 function App() {
   // #90E6FF
@@ -21,7 +22,8 @@ function App() {
         <About />
         <Services />
         <Products />
-        <Events />
+        <Community />
+        {/* <Events /> */}
         <ContactUs />
       </div>
       <Footer />

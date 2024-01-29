@@ -28,7 +28,9 @@ const Header = () => {
             alt=""
           />
         </a>
-        <span className="text-[40px] font-extrabold  text-blue-500 ml-2 font" >I-HUB</span>
+        <span className="text-[40px] font-extrabold  text-blue-500 ml-2 font">
+          <span className="text-red-500">I</span>-HUB
+        </span>
       </div>
       <div className="flex gap-10 text-blue-800 ">
         <ul className="hidden md:flex flex-row gap-10">
@@ -41,9 +43,9 @@ const Header = () => {
           <li className="active:text-purple-600 hover:text-purple-600">
             <a href="#products">Products</a>
           </li>
-          <li className="active:text-purple-600 hover:text-purple-600">
+          {/* <li className="active:text-purple-600 hover:text-purple-600">
             <a href="#events">Events</a>
-          </li>
+          </li> */}
           <li className="active:text-purple-600 hover:text-purple-600">
             <a href="#community">Community</a>
           </li>
@@ -73,11 +75,11 @@ const Header = () => {
               Products
             </a>
           </li>
-          <li className="active:text-purple-600 hover:text-purple-600">
+          {/* <li className="active:text-purple-600 hover:text-purple-600">
             <a href="#events" onClick={toggleMenu}>
               Events
             </a>
-          </li>
+          </li> */}
           <li className="active:text-purple-600 hover:text-purple-600">
             <a href="#community" onClick={toggleMenu}>
               Community
