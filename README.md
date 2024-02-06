@@ -1,4 +1,13 @@
-# React + Vite
+# MMUST IHUB
+
+Welcome to ,Mmust Ihub where collaboration meets creativity.
+Join us on the forefront of innovation
+![alt text](<src/assets/Screenshot 2024-01-22 032151.png>)
+
+Ignite Innovation,
+Transforming Ideas into Reality
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
