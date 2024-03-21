@@ -3,7 +3,14 @@ import Lapii from "../assets/lapi.svg";
 import { TiArrowForward } from "react-icons/ti";
 import { GoArrowRight } from "react-icons/go";
 import Divider from "./Divider";
+import ProjectItem from "./ProjectItem";
 import MMUStjosa from "../assets/mmustjosa.png";
+import OPPS from "../assets/oppspic.png";
+import amredi from "../assets/amredi.png";
+import tomeiget from "../assets/tomeiget.png";
+import vidmind from "../assets/vidmindpic.png";
+import feewiz from "../assets/feewiz.png";
+import innerglow from "../assets/innerglowpic.png";
 function Products() {
   return (
     <div className="mb-[30px]" id="products">
@@ -14,97 +21,70 @@ function Products() {
             {/* <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Our Projects
             </h2> */}
-            <p className="mx-auto max-w-3xl text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="mx-auto max-w-3xl text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Take a look at some of the amazing projects we've been working on.
             </p>
           </div>
         </div>
         <div className="container px-4 py-12 md:py-16 lg:py-20 xl:py-24">
           <div className="grid grid-cols-1 items-start justify-center gap-6 sm:grid-cols-2 lg:gap-8 lg:grid-cols-3">
-            <div
-              className="flex flex-col items-stretch justify-start
-             border rounded-xl overflow-hidden shadow-sm dark:divide-y-0 "
-            >
-              <img
-                alt="Project"
-                className="object-cover"
-                height="600"
-                src={MMUStjosa}
-                style={{
-                  aspectRatio: "800/400",
-                  objectFit: "cover",
-                }}
-                width="800"
-              />
-              <div className="p-4 lg:p-6 bg-white">
-                <h3 className="font-bold text-lg leading-none text-gray-500">
-                  MMUST JOSA
-                </h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A brief description of the first project.
-                </p>
-              </div>
-              <a
-                className="inline-flex h-10 items-center justify-center rounded-b-md bg-gray-900 px-4 text-sm font-medium shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                href="#"
-              >
-                View Details
-              </a>
-            </div>
-            <div className="flex flex-col items-stretch justify-start space-y-2 border rounded-xl overflow-hidden shadow-sm dark:divide-y-0">
-              <img
-                alt="Project"
-                className="object-cover"
-                height="300"
-                src="../assets/top.png"
-                style={{
-                  aspectRatio: "600/300",
-                  objectFit: "cover",
-                }}
-                width="600"
-              />
-              <div className="p-4 lg:p-6">
-                <h3 className="font-bold text-lg leading-none text-white">
-                  Project Two
-                </h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A brief description of the second project.
-                </p>
-              </div>
-              <a
-                className="inline-flex h-10 items-center justify-center rounded-b-md bg-gray-900 px-4 text-sm font-medium shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                href="#"
-              >
-                View Details
-              </a>
-            </div>
-            <div className="flex flex-col items-stretch justify-start space-y-2 border rounded-xl overflow-hidden shadow-sm dark:divide-y-0">
-              <img
-                alt="Project"
-                className="object-cover"
-                height="300"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "600/300",
-                  objectFit: "cover",
-                }}
-                width="600"
-              />
-              <div className="p-4 lg:p-6">
-                <h3 className="font-bold text-lg leading-none text-white">
-                  Project Three
-                </h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A brief description of the third project.
-                </p>
-              </div>
-              <a
-                className="inline-flex h-10 items-center justify-center rounded-b-md bg-gray-900 px-4 text-sm font-medium shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                href="#"
-              >
-                View Details
-              </a>
-            </div>
+            <ProjectItem
+              image={MMUStjosa}
+              title={"MMUST JOSA"}
+              description={
+                "MMUST JOSA is an online news platform for MMUST journalism club, where the club members can post and upload news trending and users can view"
+              }
+              link={"https://mmustjosadigital.com/"}
+            />
+            <ProjectItem
+              image={vidmind}
+              title={"VIDMIND"}
+              description={
+                "VIDMIND Ai is a youtube video summarilizer, analizer and help users extract key information on long youtube videos in few minutes."
+              }
+              link={"https://vidmind.vercel.app/"}
+            />
+            <ProjectItem
+              image={tomeiget}
+              title={"2MEIGET"}
+              description={
+                "2meiget is a platform for helping students to find their lost IDs, It helps to provide one central point and bridging the gap between Id owners and collection centers"
+              }
+              link={"https://2meiget.vercel.app/"}
+            />
+            <ProjectItem
+              image={OPPS}
+              title={"ONLINE PROJECT PROPOSAL"}
+              description={
+                "OPPS in an online project proposal for project submission reviewing projects, awarding marks,  approval and funding in an online setup where users can follow up on their project state"
+              }
+              link={"https://opps-frontend.vercel.app/"}
+            />
+
+            <ProjectItem
+              image={innerglow}
+              title={"INNERGLOW"}
+              description={
+                "Innerglow is an empathetic chatbot that  provides a safe space for users to openly express their thoughts and emotions and extends a comforting hand helping you prioritize your mental health."
+              }
+              link={"https://inner-glow.vercel.app/"}
+            />
+            <ProjectItem
+              image={feewiz}
+              title={"FEEWIZ"}
+              description={
+                "FEEWIZ helps financial matters helping in payment of school fees, view fee statements, view balance and more using USSD , this also helps people (student) without smartphones"
+              }
+              link={"https://ussd-frontend.vercel.app/"}
+            />
+            <ProjectItem
+              image={amredi}
+              title={"AMREDI"}
+              description={
+                "Amredi is a mobile app platform that helps young women to connect to mentors and trainers who can help in impacting skills that they can use to earn a living buy starting a project that can be funded by a sponsor willing to fund the project"
+              }
+              link={"https://amredi.vercel.app/"}
+            />
           </div>
         </div>
       </section>

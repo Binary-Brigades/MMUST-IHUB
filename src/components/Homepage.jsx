@@ -56,11 +56,11 @@ function Homepage() {
           duration: 0.3,
         }}
       >
-        {/* <Lottie
+        <Lottie
           className="h-[100%] w-full object-cover"
           animationData={lottie}
-        /> */}
-        <img className="" src={Lapii} alt="" />
+        />
+        {/* <img className="" src={Lapii} alt="" /> */}
       </motion.div>
       <Glowing className={"top-0 right-8"} />
     </div>

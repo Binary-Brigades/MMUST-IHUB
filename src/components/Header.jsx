@@ -41,7 +41,7 @@ const Header = () => {
             <a href="#services">Services</a>
           </li>
           <li className="active:text-purple-600 hover:text-purple-600">
-            <a href="#products">Products</a>
+            <a href="#products">Projects</a>
           </li>
           {/* <li className="active:text-purple-600 hover:text-purple-600">
             <a href="#events">Events</a>
@@ -72,7 +72,7 @@ const Header = () => {
           </li>
           <li className="active:text-purple-600 hover:text-purple-600">
             <a href="#products" onClick={toggleMenu}>
-              Products
+              Projects
             </a>
           </li>
           {/* <li className="active:text-purple-600 hover:text-purple-600">
