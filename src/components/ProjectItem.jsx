@@ -3,8 +3,8 @@ import React from "react";
 function ProjectItem({ image, title, description, link }) {
   return (
     <div
-      className="flex flex-col items-stretch justify-start
-             border rounded-xl overflow-hidden shadow-sm dark:divide-y-0 "
+      className="flex flex-col bg-white  justify-center
+             border rounded-xl overflow-hidden shadow-sm  "
     >
       <img
         alt="Project"
@@ -17,7 +17,7 @@ function ProjectItem({ image, title, description, link }) {
         }}
         width="800"
       />
-      <div className="p-4 lg:p-6 bg-[aliceblue] shadow-xl shadow-black">
+      <div className="p-4 lg:p-6 bg-[aliceblue] ">
         <h3 className="font-bold text-xl mb-2 leading-none text-gray-500">
           {title}
         </h3>

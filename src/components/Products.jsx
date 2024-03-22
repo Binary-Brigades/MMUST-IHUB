@@ -29,7 +29,7 @@ function Products() {
           </div>
         </div>
         <div className="container px-4 py-12 md:py-16 lg:py-20 xl:py-24">
-          <div className="grid grid-cols-1 items-start justify-center gap-6 sm:grid-cols-2 lg:gap-8 lg:grid-cols-3">
+          <div className="grid grid-cols-1 items-centewr justify-center gap-6 sm:grid-cols-2 lg:gap-8 lg:grid-cols-3">
             <ProjectItem
               image={MMUStjosa}
               title={"MMUST JOSA"}
