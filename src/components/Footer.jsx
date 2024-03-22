@@ -13,8 +13,13 @@ function Footer() {
         <div className="space-y-2 md:col-span-2 lg:col-span-1 ">
           <h2 className="text-xl font-bold">Contact Info</h2>
           <p className="text-gray-500">Kakamega, Kenya</p>
-          <p className="text-gray-500">Phone: (123) 456-7890</p>
-          <p className="text-gray-500">Email: info@company.com</p>
+          <p className="text-gray-500">
+            Phone: <a href="tel:+254 113198044">+254 113198044</a>
+          </p>
+          <p className="text-gray-500">
+            Email:{" "}
+            <a href="mailto:amianielvis8@gmail.com">amianielvis8@gmail.com</a>
+          </p>
         </div>
         <div className="space-y-2 md:col-span-2 lg:col-span-1 ">
           <h2 className="text-xl font-bold">Social</h2>
@@ -23,7 +28,7 @@ function Footer() {
             <a href="">
               <TiSocialTwitter className="w-8 h-8 hover:text-white transition-all duration-500 ease-in-out" />
             </a>
-            <a href="">
+            <a href="https://github.com/orgs/Binary-Brigades">
               <TiSocialGithubCircular className="w-8 h-8 hover:text-white  transition-all duration-500 ease-in-out" />
             </a>
           </p>
@@ -49,7 +54,7 @@ function Footer() {
         <p>MMUST-IHUB © 2024. All rights reserved.</p>
         <p className="text-sm">
           <span className="text-[#9ae9e9]">
-            Made with ❤ by @Binary Brigates
+            Made with ❤ by @Binary Brigades
           </span>
           🚀
         </p>

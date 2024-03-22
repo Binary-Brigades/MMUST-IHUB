@@ -11,6 +11,8 @@ import tomeiget from "../assets/tomeiget.png";
 import vidmind from "../assets/vidmindpic.png";
 import feewiz from "../assets/feewiz.png";
 import innerglow from "../assets/innerglowpic.png";
+import sandbox from "../assets/sandbox.jpg"
+import fullsandbox from "../assets/img3 (1).jpg"
 function Products() {
   return (
     <div className="mb-[30px]" id="products">
@@ -70,7 +72,7 @@ function Products() {
               link={"https://inner-glow.vercel.app/"}
             />
             <ProjectItem
-              image={feewiz}
+              image={fullsandbox}
               title={"FEEWIZ"}
               description={
                 "FEEWIZ helps financial matters helping in payment of school fees, view fee statements, view balance and more using USSD , this also helps people (student) without smartphones"
