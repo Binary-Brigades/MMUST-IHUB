@@ -30,7 +30,7 @@ function OurCarousel() {
         </div>
         <div>
           <img src={iot} className="h-[300px] object-cover rounded-lg" />
-          <p className="legend ">Iternet Of Things</p>
+          <p className="legend ">Internet Of Things</p>
         </div>
         <div>
           <img src={ai} className="h-[300px] object-cover rounded-lg" />

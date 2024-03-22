@@ -51,7 +51,7 @@ function Footer() {
         </div>
       </div>
       <div className="container mt-8  text-center text-gray-500 border-t  pt-8 ">
-        <p>MMUST-IHUB © 2024 Company Name. All rights reserved.</p>
+        <p>MMUST-IHUB © 2024. All rights reserved.</p>
         <p className="text-sm">
           <span className="text-[#9ae9e9]">
             Made with ❤ by @Binary Brigades
