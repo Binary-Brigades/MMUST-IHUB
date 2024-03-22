@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header";
 import Homepage from "./components/Homepage";
 import About from "./components/About";
